@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{ 
+  background-color: #363636; /* ash grey */
+  color: white;
+  padding: 20px 20px; 
+}
+
+
+.footerbottom p{
+    margin:;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+  color: white;;
+   
+}
+.socialicons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a :hover {
+    background-color: white;
+    transition: 0.5s;
+}
+.socialicons a :hover i{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.socialicons a img {
+    width: 30px;   /* adjust as needed */
+    height: 30px;  /* maintain aspect ratio */
+}
+
+.footerbottom{
+    
+    padding: 20px;
+    text-align: center; 
+    border-radius: 1%;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400 ;
+    margin: 0px 5px;
+}
+
+.Carousel slide {
+  height: 60vh;
+  min-height: 400px;
+  max-height: 700px;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
